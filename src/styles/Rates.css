@@ -1,0 +1,157 @@
+
+.sidebar1 {
+  margin: 0;
+  padding: 0;
+  width: 230px;
+  background-color: black;
+  position: absolute;
+  border:1px solid orange;
+  border-bottom:none;
+  overflow: auto;
+}
+
+.sidebar1 a {
+  display: block;
+  color: yellow;
+  padding: 16px;
+  text-decoration: none;
+  border-bottom:1px solid orange;
+}
+ 
+.sidebar1 a.active {
+  background-color:  #2196f3;
+  color: white;
+}
+
+.sidebar1 a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar1 {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar1 a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar1 a {
+    text-align: center;
+    float: none;
+  }
+}
+
+
+.sidebar2 {
+  margin: 0;
+  padding: 0;
+  width: 230px;
+  background-color: black;
+  position: absolute;
+  border:1px solid orange;
+  border-bottom:none;
+  overflow: auto;
+}
+
+.sidebar2 a {
+  display: block;
+  color: yellow;
+  padding: 16px;
+  text-decoration: none;
+  border-bottom:1px solid orange;
+}
+ 
+.sidebar2 a.active {
+  background-color:  #2196f3;
+  color: white;
+}
+
+.sidebar2 a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar2 {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar2 a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar2 a {
+    text-align: center;
+    float: none;
+  }
+}
+
+.sidebar3 {
+  margin: 0;
+  padding: 0;
+  width: 230px;
+  background-color: black;
+  position: absolute;
+  border:1px solid orange;
+  border-bottom:none;
+  overflow: auto;
+}
+
+.sidebar3 a {
+  display: block;
+  color: yellow;
+  padding: 16px;
+  text-decoration: none;
+  border-bottom:1px solid orange;
+}
+ 
+.sidebar3 a.active {
+  background-color: #2196f3;
+  color: white;
+}
+
+.sidebar3 a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar3 {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar3 a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar3 a {
+    text-align: center;
+    float: none;
+  }
+}

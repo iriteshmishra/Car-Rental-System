@@ -1,0 +1,357 @@
+.monospace{
+  font-family: 'Grenze Gotisch', cursive;
+  font-size: 62px;
+}
+
+.logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul.menu{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	background-color:#283c5f ;
+	overflow:hidden;
+}
+
+li.menu{
+	float:left;
+}
+
+li a{
+	display:block;
+	color:white;
+	text-align:center;
+	padding:14px 16px;
+	text-decoration:none;
+}
+
+li a:hover{
+	background-color:orange;
+}
+
+#nav-image{
+	padding-right:5px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color:#283c5f ;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  cursor: pointer;
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+  background-color: orange;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color:#D3D3D3;
+}
+
+.show {
+  display: block;
+}
+
+.menu input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 15px;
+  border-radius: 50px;
+  width:200px;
+}
+
+header a:link{
+	color:black;
+	text-decoration: none;
+}
+
+header a:visited{
+	color:black;
+	text-decoration: none;
+}
+
+header a:hover{
+	color: blue;
+	text-decoration: none;
+}
+
+
+
+
+
+
+///
+
+
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: rgb(255, 153, 51, 0.5);
+}
+
+
+.text1 {
+  color: black;
+  font-size: 45px;
+  text-align: center;
+  padding: 0px 12px;
+  position: absolute;
+  top: 15px;
+  width: 100%;
+  font-weight:bold;
+  font-family: monospace;
+  text-shadow: 2px 2px 5px #666666;
+}
+
+
+
+
+.text2 {
+  color: black;
+  font-size: 45px;
+  padding: 0px 12px;
+  position: absolute;
+  top: 15px;
+  width: 100%;
+  text-align: center;
+  font-weight:bold;
+  font-family: monospace;
+  text-shadow: 2px 2px 5px #663300;
+}
+
+
+.text3 {
+  color: black;
+  font-size: 45px;
+  padding: 0px 12px;
+  position: absolute;
+  top: 15px;
+  width: 100%;
+  text-align: center;
+  font-weight:bold;
+  font-family: monospace;
+  text-shadow: 2px 2px 5px #0086b3;
+}
+
+
+
+
+
+
+
+
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+
+
+
+.slideimg1{
+	width: 100%;
+	height: 900px;
+}
+
+
+
+.slideimg2{
+	width: 100%;
+	height: 900px;
+}
+
+
+
+.slideimg3{
+	width: 100%;
+	height: 900px;
+}
+
+
+
+.login-box1{
+	width:800px;
+	height:720px;
+	background:rgba(0,0,0,0.5);
+	color:#fff;
+	top:52%;
+	left:50%;
+	position:absolute;
+	transform:translate(-50%, -50%);
+	box-sizing:boxer-box;
+}
+
+
+li:hover {
+  background-color: rgb(255, 204, 204, 0.3);
+}
+
+
+.login-box2{
+	width:800px;
+	height:720px;
+	background:rgb(102, 51, 0, 0.5);
+	color:#fff;
+	top:52%;
+	left:50%;
+	position:absolute;
+	transform:translate(-50%, -50%);
+	box-sizing:boxer-box;
+}
+
+
+.login-box3{
+	width:800px;
+	height:720px;
+	background:rgb(0, 134, 179, 0.5);
+	color:#fff;
+	top:52%;
+	left:50%;
+	position:absolute;
+	transform:translate(-50%, -50%);
+	box-sizing:boxer-box;
+}
+
+////
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

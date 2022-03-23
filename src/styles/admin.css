@@ -1,0 +1,19 @@
+#sidebar{
+	width:300px;
+	height: 400px;
+	background: #27ae60;
+	padding-top: 100px;
+	border-left:100px;
+	text-align:center;
+	
+}
+
+.content{
+	padding-left:70px;
+	font-size:30px;
+	
+}
+
+.content :hover{
+	color:orange;
+}

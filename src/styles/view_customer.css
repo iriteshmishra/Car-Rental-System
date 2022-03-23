@@ -1,0 +1,54 @@
+.wrapper{
+	font-size:30px;
+	color:black;
+	opacity:0.9;
+	background-color: #fffa8c;
+	width: 900px;
+	height: 800px;
+	padding:20px;
+	margin: 25px auto 0;
+	border-top: 5px solid #f5ba1a;
+	box-shadow: 0 0 3px rgba(0,0,0, alpha);
+}
+
+.contact{
+	width:100%;
+	font-family: 'Actor', sans-serif;
+	margin-left:none;
+	margin-top:10px;
+	margin-bottom: 10px;
+	font-size:30px;
+	
+}
+
+#btn1{
+	
+  border: none;
+  border-radius: 10px;
+  color: Black;
+  background-color: white;
+  padding: 15px 32px;
+  text-align: center;
+  width:20%;
+  cursor: pointer;
+	
+
+
+}
+
+#btn2{
+	
+  border: none;
+  border-radius: 10px;
+  color: Black;
+  background-color: white;
+  padding: 15px 32px;
+  text-align: center;
+  width:20%;
+  cursor: pointer;
+	
+
+
+}
+
+

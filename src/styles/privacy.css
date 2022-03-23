@@ -1,0 +1,20 @@
+body{
+	margin:0;
+	padding:0;
+	background-image:url("../images/cash.jpg");
+	font-family:sans-serif;
+	background-position:center;
+	background-attachment:fixed;
+	background-size:cover;
+	font-family:Candara;
+	
+}
+
+
+.main{
+	background-color:rgba(255, 255, 255, 0.925);
+	width:900px;
+	height:auto;
+	margin:auto;
+	padding:20px;
+}

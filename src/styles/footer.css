@@ -1,0 +1,110 @@
+.footer{
+	position:fixed;
+	bottom:0px;
+	width:100%;
+	margin-top:1px;
+}
+
+.main-content{
+	display:flex;
+	font: 15px Arial, sans-serif;
+	z-index:10;
+}
+
+.main-content .box1{
+	flex-basis: 60%;
+	padding:10px 50px;
+	line-height:1px;
+}
+
+.main-content .box2{
+	flex-basis: 75%;
+	padding:10px 0px;
+	line-height:1px;
+}
+
+.main-content .box3{
+	flex-basis: 55%;
+	padding: 10px 5px;
+	line-height:1px;
+}
+
+.box1 h4{
+	font-size:1.125rem;
+	font-weight: 600;
+}
+
+.box3 h4{
+	font-size:1.125rem;
+	font-weight: 600;
+}
+
+.box1{
+	margin:20px 0 0 0;
+}
+
+.box2{
+	margin:45px 0 0px 0;
+}
+
+.box3{
+	margin:20px 100px 0 0;
+}
+
+.right .social{
+	margin:20px 0 0 0;
+}
+
+.right .social a{
+	color:red;
+}
+
+.right .social a span{
+	height:30px;
+	width:30px;
+    background:#1a1a1a;
+    line-height:30px;
+	text-align:center;
+	font-size:18px;
+	border-radius:5px;
+	transition:0.3s;
+}
+
+
+.right .social a span:hover{
+	background: orange;
+}
+
+.left a:link{
+	color:white;
+	text-decoration: none;
+}
+
+.left a:visited{
+	color:white;
+	text-decoration: none;
+}
+
+.left a:hover{
+	color: orange;
+	text-decoration: none;
+}
+
+.center a:link{
+	color:white;
+	text-decoration: none;
+}
+
+.center a:visited{
+	color:white;
+	text-decoration: none;
+}
+
+.center a:hover{
+	color: orange;
+	text-decoration: none;
+}
+
+
+	
+	

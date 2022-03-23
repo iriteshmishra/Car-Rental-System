@@ -1,0 +1,83 @@
+.container{
+	border-top:0px;
+	width: 100%;
+	background:url(../images/driver.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:right;
+	opacity:0.9;
+}
+
+.contact{
+	width:100%;
+	font-family: 'Actor', sans-serif;
+	margin-left:none;
+	margin-top:10px;
+	margin-bottom: 10px;
+	font-size:30px;
+	
+}
+
+.contact-box{
+	height:900px;
+	font-family: 'Poppins', sans-serif;
+	color:white;
+}
+
+.contact-left{
+	padding: 10px 20px;
+}
+
+.input-row{
+	display:flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+	margin-right:440px;
+}
+
+.msg{
+	margin-bottom:100px;
+}
+
+.send{
+	width:100px;
+	height:30px;
+	margin-right:10px;
+	background-color:blue;
+	font-size:15px;
+	color:white;
+	border:none;
+	cursor:pointer;
+}
+
+.reset{
+	width:100px;
+	height:30px;
+	background-color:#808080;
+	font-size:15px;
+	color:white;
+	border:none;
+	cursor:pointer;
+}
+
+.wrapper{
+	color:black;
+	opacity:0.9;
+	background-color: #fffa8c;
+	width: 900px;
+	height: 770px;
+	padding:20px;
+	margin: 25px auto 0;
+	border-top: 5px solid #f5ba1a;
+	box-shadow: 0 0 3px rgba(0,0,0, alpha);
+}
+
+
+
+
+
+
+
+
+
+
